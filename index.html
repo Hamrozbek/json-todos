@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Todo App</title>
+</head>
+
+<body>
+    <video autoplay muted loop class="absolute top-0 left-0 w-full h-full object-cover -z-10">
+        <source src="./nat.mp4" type="video/mp4"/></video>
+    
+    <h1 class="font-bold text-[35px] text-white text-center pt-[100px] pb-[30px]">Todo App</h1>
+    <form autocomplete="off" class="flex justify-between w-[450px] mx-auto rounded-[5px] p-[5px]">
+        <input class="w-[320px] pl-[10px] rounded-[5px] border-[1px] outline-none text-[15px] placeholder:text-white font-bold text-white" required type="text" placeholder="Typeng..." name="todo">
+        <button class="w-[100px] p-[5px] border-[1px] border-green-600 rounded-[5px] text-[15px] font-bold text-white bg-green-600 cursor-pointer hover:bg-transparent hover:border-white hover:border-[1px] hover:text-white duration-300" type="submit">Create</button>
+    </form>
+
+    <ul class="list w-[450px] mx-auto mt-[20px] text-[15px] font-bold text-white rounded-[5px]"></ul>
+
+    <style type="text/tailwindcss"></style>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
